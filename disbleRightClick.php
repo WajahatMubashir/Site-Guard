@@ -1,7 +1,7 @@
 <?php
 /**
 * Plugin Name: Protect-Website
-* Plugin URI: 
+* Plugin URI: https://github.com/WajahatMubashir/Site-Guard
 * Description: A plugin to Disable Right Click, Protect Text, Delay RSS Feed to protect from bad bots and Hide Source Code
 * Version: 0.0.3
  * Author: Wajahat Mubashir
