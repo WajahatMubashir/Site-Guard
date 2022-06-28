@@ -8,7 +8,7 @@
  */
 
  // Exit if accessed directly
- if( !defined( 'ABSPATH' ) ) exit; 
+if (!defined('ABSPATH')) { exit; } 
 
  // Hook For StyleSheet
 add_action( 'wp_enqueue_scripts', 'disableClick_load_js' );
