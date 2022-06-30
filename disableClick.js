@@ -2,7 +2,7 @@
 document.addEventListener("DOMContentLoaded", function () {
 	var bodyTag = document.getElementsByTagName("body");
 	var classCheck = bodyTag.classList;
-	if (jQuery("body").hasClass("logged-in")) {
+	if (jQuery("body").hasClass("admin-bar")) {
 		console.log("logged-in");
 	} else {
 		document.addEventListener("keydown", function (event) {
