@@ -31,7 +31,7 @@ add_action( 'admin_enqueue_scripts', 'disableClick_load_js' );
         $now = gmdate('Y-m-d H:i:s');
  
         // value for wait; + device
-        $wait = '10'; // integer
+        $wait = '30'; // integer
  
        
         $device = 'MINUTE'; //MINUTE, HOUR, DAY, WEEK, MONTH, YEAR
