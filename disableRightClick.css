@@ -8,3 +8,57 @@
 	-ms-user-select: none; /* Internet Explorer/Edge */
 	user-select: none; /* Non-prefixed version, currently supported by Chrome, Opera and Firefox */
 }
+.modal-warn {
+	max-width: 400px;
+	width: 100%;
+	background: #fff;
+	padding: 40px;
+	margin: auto auto;
+	margin-top: 30vh;
+}
+.modal-main {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+	background: rgb(2 2 2 / 70%);
+	z-index: 999;
+}
+p.warn-message {
+	font-size: 20px;
+}
+button#mybutton {
+	background: #000;
+	padding: 12px;
+	border-radius: 5px;
+}
+button#mybutton:before,
+button#mybutton:after {
+	width: 4.4em;
+	height: 2.95em;
+	position: absolute;
+	content: "";
+	display: inline-block;
+	background: #000;
+	border-radius: 50%;
+	transition: transform 1s ease;
+	transform: scale(0);
+	z-index: -1;
+}
+
+button#mybutton:before {
+	top: -25%;
+	left: 20%;
+}
+
+button#mybutton:after {
+	bottom: -25%;
+	right: 20%;
+}
+
+button#mybutton:hover:before,
+button#mybutton:hover:after {
+	transform: none;
+}
