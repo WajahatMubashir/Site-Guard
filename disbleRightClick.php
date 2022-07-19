@@ -3,7 +3,7 @@
 * Plugin Name: Protect-Website
 * Plugin URI: https://github.com/WajahatMubashir/Site-Guard
 * Description: A plugin to Disable Right Click, Protect Text, Delay RSS Feed to protect from bad bots and Hide Source Code
-* Version: 0.0.3
+* Version: 0.0.6
  * Author: Wajahat Mubashir
  */
 
@@ -31,7 +31,7 @@ add_action( 'admin_enqueue_scripts', 'disableClick_load_js' );
         $now = gmdate('Y-m-d H:i:s');
  
         // value for wait; + device
-        $wait = '30'; // integer
+        $wait = '10'; // integer
  
        
         $device = 'MINUTE'; //MINUTE, HOUR, DAY, WEEK, MONTH, YEAR
